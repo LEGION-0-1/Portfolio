@@ -9,7 +9,7 @@ function AboutMe() {
 
                 <div className="about-text">
                     <p>
-                        I'm a passionate <strong>Web Developer, Game Developer, and 3D Modeler</strong> who loves building 
+                        I'm a passionate <strong>Web Developer, Game Developer, AI assistant Developer and 3D Modeler</strong> who loves building 
                         creative and efficient digital solutions. I enjoy solving problems, designing intuitive interfaces, and 
                         bringing ideas to life with code.
                     </p>

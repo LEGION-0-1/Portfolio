@@ -5,6 +5,8 @@ import AboutMe from './AboutMe/aboutMe.jsx';
 import Projects from './Projects/Projects.jsx';
 import Skills  from './Skills/Skills.jsx';
 import Contact from './Contact/Contact.jsx'
+import CodolioCard from './CodolioCard/CodolioCard';
+import Certifications from './Certifications/Certifications.jsx'
 import DarkIcon from './assets/circle-half-stroke-solid.svg';
 
 function App() {
@@ -39,9 +41,9 @@ function App() {
       <header className="navbar">
         <nav>
           <h1>Dilpreet Singh</h1>
-          <button onClick={() => scrollToSection("about")}>About Me</button>
-          <button onClick={() => scrollToSection("projects")}>Projects</button>
-          <button onClick={() => scrollToSection("contact")}>Contact</button>
+          <button className='ele' onClick={() => scrollToSection("about")}>About Me</button>
+          <button className='ele' onClick={() => scrollToSection("projects")}>Projects</button>
+          <button className='ele' onClick={() => scrollToSection("contact")}>Contact</button>
 
           <button 
             onClick={() => setDarkMode(!darkMode)} 
@@ -57,11 +59,13 @@ function App() {
         <AboutMe />
         <Projects />
         <Skills />
+        <CodolioCard />
+        <Certifications />
         <Contact />
       </main>
 
       <footer className="footer">
-        <p>© 2025 Dilpreet Singh | <a href="https://github.com/yourprofile">GitHub</a></p>
+        <p>© 2025 Dilpreet Singh</p>
       </footer>
 
       {showScroll && (

@@ -7,8 +7,8 @@ const projectData = [
         title: "To-Do-Ro App",
         image: "/images/todoro.png", // Replace with actual image
         description: "A to-do list and Pomodoro timer combined for productivity.",
-        tech: ["React", "JavaScript", "CSS"],
-        link: "https://github.com/yourusername/todoro",
+        tech: ["React", "JavaScript", "CSS", "HTML"],
+        link: "https://github.com/LEGION-0-1/To-Do-Ro",
         category: "Web Dev",
     },
     {
@@ -22,11 +22,11 @@ const projectData = [
     },
     {
         id: 3,
-        title: "Minimalist Platformer Game",
+        title: "Flappy Bird",
         image: "/images/platformer.png",
-        description: "A 2D platformer game built using Phaser.js.",
-        tech: ["Phaser.js", "JavaScript"],
-        link: "https://your-game-link",
+        description: "A replica of the OG Flappy Bird game",
+        tech: ["Unity", "C#"],
+        link: "https://github.com/LEGION-0-1/Flappy_Bird",
         category: "Game Dev",
     },
 ];

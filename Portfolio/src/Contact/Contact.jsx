@@ -58,11 +58,10 @@ function Contact() {
                 </form>
 
                 <div className="contact-info">
-                    <p>📧 <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-                    <p>📞 <a href="tel:+1234567890">+123 456 7890</a></p>
+                    <p>📧 <a href="mailto:the.dilpreet.1@gmail.com">Dilpreet Singh</a></p>
                     <div className="socials">
-                        <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">GitHub</a>
-                        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://github.com/LEGION-0-1" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://www.linkedin.com/in/dilpreet-singh--/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                         <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">Twitter</a>
                     </div>
                 </div>
