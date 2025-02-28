@@ -13,15 +13,16 @@ const skills = [
         {
             category: "Game Development",
             skills: [
-                { name: "Phaser.js", icon: "🎮", level: "Beginner" },
-                { name: "JavaScript", icon: "⚡", level: "Intermediate" },
+                { name: "Unity", icon: "🎮", level: "Beginner" },
+                { name: "C#", icon: "⚡", level: "Beginner" },
             ],
         },
         {
             category: "3D Modeling",
             skills: [
                 { name: "Blender", icon: "🛠️", level: "Intermediate" },
-                { name: "Three.js", icon: "🌐", level: "Beginner" },
+                { name: "AutoCad", icon: "🌐", level: "Advanced" },
+                { name: "SolidWorks", icon: "🏆", level: "Advanced" },
             ],
         },
     ];

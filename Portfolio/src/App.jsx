@@ -43,6 +43,8 @@ function App() {
           <h1>Dilpreet Singh</h1>
           <button className='ele' onClick={() => scrollToSection("about")}>About Me</button>
           <button className='ele' onClick={() => scrollToSection("projects")}>Projects</button>
+          <button className='ele' onClick={() => scrollToSection("certifications")}>Certifications</button>
+          <button className='ele' onClick={() => scrollToSection("skills")}>Skills</button>
           <button className='ele' onClick={() => scrollToSection("contact")}>Contact</button>
 
           <button 
@@ -58,9 +60,9 @@ function App() {
         <Homepage />
         <AboutMe />
         <Projects />
-        <Skills />
-        <CodolioCard />
         <Certifications />
+        <CodolioCard />
+        <Skills />
         <Contact />
       </main>
 
