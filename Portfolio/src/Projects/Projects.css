@@ -1,7 +1,7 @@
 .projects {
     padding: 80px 10%;
     text-align: center;
-    background: #f8f9fa;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 50%),#f9f9f9, rgba(0, 0, 0, 50%));
 }
 
 .projects h2 {

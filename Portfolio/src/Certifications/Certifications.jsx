@@ -55,7 +55,7 @@ const certifications = [
         issuer: "freeCodeCamp",
         date: "Jan 2025",
         link: "https://freecodecamp.org/certification/Dilpreet_LEGION/front-end-development-libraries",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     },
 ];
 

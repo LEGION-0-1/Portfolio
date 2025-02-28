@@ -29,6 +29,15 @@ const projectData = [
         link: "https://github.com/LEGION-0-1/Flappy_Bird",
         category: "Game Dev",
     },
+    {
+        id: 4,
+        title: "Python AI Assitant",
+        image: "/images/todoro.png",
+        description: "A command line personal AI assistant to increase productivity and save time.",
+        tech: ["Ai", "Python"],
+        link: "https://github.com/LEGION-0-1/python-assistant-script",
+        category: "Web Dev",
+    },
 ];
 
 function Projects() {
