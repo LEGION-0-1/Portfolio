@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./Projects.css";
+import Hexaped from '../assets/hexaped.png';
+import Flappy from '../assets/flappy.png';
 
 const projectData = [
     {
@@ -13,17 +15,17 @@ const projectData = [
     },
     {
         id: 2,
-        title: "3D Portfolio Model",
-        image: "/images/3dmodel.png",
-        description: "A 3D character model created in Blender.",
-        tech: ["Blender", "Three.js"],
-        link: "https://your-3d-portfolio-link",
+        title: "Hexaped Rigged Model",
+        image: Hexaped,
+        description: "A 3D 6 legged model that can be animated as it is completely rigged created in Blender.",
+        tech: ["Blender"],
+        link: "https://github.com/LEGION-0-1/Blender",
         category: "3D Modeling",
     },
     {
         id: 3,
         title: "Flappy Bird",
-        image: "/images/platformer.png",
+        image: Flappy,
         description: "A replica of the OG Flappy Bird game",
         tech: ["Unity", "C#"],
         link: "https://github.com/LEGION-0-1/Flappy_Bird",
@@ -36,7 +38,7 @@ const projectData = [
         description: "A command line personal AI assistant to increase productivity and save time.",
         tech: ["Ai", "Python"],
         link: "https://github.com/LEGION-0-1/python-assistant-script",
-        category: "Web Dev",
+        category: "AI",
     },
 ];
 
@@ -53,7 +55,7 @@ function Projects() {
             <h2>My Projects</h2>
 
             <div className="filters">
-                {["All", "Web Dev", "Game Dev", "3D Modeling"].map((category) => (
+                {["All", "Web Dev", "Game Dev", "3D Modeling", "AI"].map((category) => (
                 <button
                 key={category}
                 className={filter === category ? "active" : ""}
